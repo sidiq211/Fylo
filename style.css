@@ -21,9 +21,15 @@ body{
     justify-content: space-evenly;
     margin-left: 70%;
     margin-top: -35px;
-    text-decoration: none;
+    list-style: none;
+    border:1px solid red;
     
 }
+.nav-List li a{
+    text-decoration: none;
+    color: black;
+}
+
 .container{
     display: flexbox;
     color:hsl(243, 87%, 12%);
@@ -69,6 +75,9 @@ button{
 .arrow{
     color: rgb(85, 184, 85);
     text-decoration: underline;
+    cursor:pointer;
+    border: 1px solid red;
+    width:max-content;
 }
 .quotes{
     width: 5%;
